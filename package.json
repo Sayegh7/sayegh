@@ -1,0 +1,36 @@
+{
+  "name": "sayegh",
+  "version": "0.1.0",
+  "description": "A server in 2 lines",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sayegh7/sayegh"
+  },
+  "licenses": [
+    {
+    "type": "MIT",
+    "url": "https://github.com/Sayegh7/sayegh/LICENSE"
+    }
+  ],  
+  "keywords": [
+    "server",
+    "sayegh",
+    "lazy"
+  ],
+  "author": "Ahmed El Sayegh <ahmedelsayegh7@gmail.com>",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/Sayegh7/sayegh/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
