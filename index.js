@@ -1,7 +1,9 @@
 module.exports = {
+	app: null,
 	start: function(port, message){
 		var express = require('express');
 		var app = express();
+		this.app = app;
 		if(port === undefined){
 			port = 80;
 		}
@@ -9,6 +11,11 @@ module.exports = {
 		console.log("listening on port " + port)
 		app.get('/', function(req, res){
 			res.end(message);
+		});
+	},
+	get: function(route, response){
+		this.app.get(route, function(req, res){
+			res.end(response);
 		});
 	}
 }
