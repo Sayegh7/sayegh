@@ -1,6 +1,6 @@
 {
   "name": "sayegh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A server in 2 lines",
   "main": "index.js",
   "scripts": {
