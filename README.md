@@ -5,5 +5,9 @@ __How to start:__
 
 Simply require the module and give it a response message and an optional port number
 
-	var sayegh = require('sayegh');
-	sayegh.start("response", 80);
+	var server = require('sayegh');
+	server.start("response", 80);
+
+You can also create customized responses based on the route hit with the get() function
+	
+	server.get("/index", "response");
